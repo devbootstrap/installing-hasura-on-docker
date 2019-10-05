@@ -31,7 +31,7 @@ Make sure to set `id` column as the Primary Key and click save button.
 
 ### Sanity check in Postgres DB
 
-Head to [pgAdmin Console](http://localhost:5050/) to open the pgAdmin console.
+When workig with databases such as Postgres, I like to check the source by connecting directly to the database and having a dig around there. So to do this we can head over to [pgAdmin Console](http://localhost:5050/).
 
 Connect to the database. The details are in the [docker-compose file](./docker-compose.yml). Assuming this file has not changed the required connection details are:
 
